@@ -1,0 +1,83 @@
+@media (max-width: 500px) {
+    .logo1 {
+        width: 150px;
+        height: 50px;
+    }
+    .sidenav {
+        height: 100vh;
+        width: 250px;
+        left: -250px;
+        position: fixed;
+        padding-top: 60px;
+        z-index: 999;
+        transition: 0.5s;
+        overflow-x: hidden;
+    }
+    .sidenav.active {
+        left: 0;
+    }
+    .sidenav a {
+        display: block;
+        text-decoration: none;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        padding: 8px 8px 8px 35px;
+        transition: 0.5s;
+    }
+    .sidenav a:hover {
+        color: #8a8a8a;
+    }
+    .sidenav .closeBtn {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 30px;
+    }
+    .open {
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .clsbtn {
+        width: 30px;
+    }
+}
+
+@media (min-width: 500px) {
+    .sidenav {
+        height: 100vh;
+        width: 250px;
+        left: -250px;
+        position: fixed;
+        padding-top: 60px;
+        z-index: 999;
+        transition: 0.5s;
+        overflow-x: hidden;
+    }
+    .sidenav.active {
+        left: 0;
+    }
+    .sidenav a {
+        display: block;
+        text-decoration: none;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        padding: 8px 8px 8px 35px;
+        transition: 0.5s;
+    }
+    .sidenav a:hover {
+        color: #8a8a8a;
+    }
+    .sidenav .closeBtn {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        font-size: 36px;
+    }
+    .open {
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .clsbtn {
+        width: 30px;
+    }
+}

@@ -21,5 +21,10 @@
 #video
 *.mp4
 
+#txt
 
+*.txt
+
+#sql
+*.sql
 
