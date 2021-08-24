@@ -9,7 +9,7 @@
 z
 .div {
     width: 350px;
-    margin-right: 10px;
+    margin-right: 100px;
     color: black;
 
 }
